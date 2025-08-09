@@ -165,3 +165,52 @@ For advanced features, automated containerization, and marketplace distribution,
 ---
 
 *Maintained by the MCP community. Not officially affiliated with Anthropic.*
+
+---
+
+## 🌐 MCP Ecosystem
+
+### Core Components
+
+| Repository | Description | License |
+|------------|-------------|----------|
+| **[MCP Protocol SDK](https://github.com/prismworks-ai/mcp-protocol-sdk)** | Free, open-source Rust SDK with plugin system | MIT |
+| **[MCP Dev Tools](https://github.com/prismworks-ai/mcp-dev)** | CLI, VS Code extension, and utilities | MIT |
+| **[MCP Plugins](https://github.com/prismworks-ai/mcp-plugins)** | Community plugin implementations | Apache 2.0 |
+| **[MCP Registry](https://github.com/prismworks-ai/mcp-plugins-registry)** | Plugin discovery and distribution | MIT |
+
+### Professional Platform
+
+For advanced features including SSO, SAML, monitoring, compliance tools, and automated marketplace distribution:
+
+**[MCP Platform](https://prismworks.ai/platform)** - Enterprise-grade features for production deployments
+
+### Resources
+
+- 📚 **[Documentation](https://docs.prismworks.ai)** - Comprehensive guides and API references
+- 💬 **[Discord Community](https://discord.gg/mcp-community)** - Get help and share ideas
+- 🐛 **[Issue Tracker](https://github.com/prismworks-ai/mcp-protocol-sdk/issues)** - Report bugs and request features
+- 📖 **[Blog](https://blog.prismworks.ai)** - Tutorials and announcements
+- 💼 **[Professional Support](https://prismworks.ai/support)** - Enterprise support options
+
+### Quick Start
+
+```bash
+# Install the MCP CLI
+cargo install mcp-cli
+
+# Create a new plugin
+mcp new my-plugin
+
+# Browse available plugins
+mcp search
+```
+
+### Contributing
+
+We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) and sign the [CLA](CLA.md) before submitting pull requests.
+
+### License
+
+This project's license information is available in the [LICENSE](LICENSE) file.
+
